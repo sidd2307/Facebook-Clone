@@ -1,0 +1,26 @@
+/* Places title against icons */
+.sidebarRow {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* On hovering  */
+.sidebarRow:hover {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+/* introduces gap between icon and text */
+.sidebarRow > h4 {
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+/* Change color and size of icons */
+.sidebarRow > .MuiSvgIcon-root {
+    font-size: xx-large;
+    color: #2e81f4;
+}
+
